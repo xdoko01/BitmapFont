@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-bitmapfont-extract = "bitmapfont.extractor:main"
+bitmapfont-extract = "pgbitmapfont.extractor:main"
 
 [project.urls]
 Homepage = "https://github.com/xdoko01/Pygame-BitmapFont"

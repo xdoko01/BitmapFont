@@ -1,6 +1,6 @@
 [project]
 name = "pgbitmapfont"
-version = "0.1.4"
+version = "0.1.5"
 description = "A Python library to render text from bitmap font images"
 authors = [
     { name = "xdoko01" }

@@ -12,6 +12,6 @@ __pycache__
 **/pgbitmapfont.egg-info
 
 # Ignore virtual env
-**/venv
+venv/
 
 

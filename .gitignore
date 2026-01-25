@@ -10,3 +10,8 @@ __pycache__
 # Ignore distro
 **/dist
 **/pgbitmapfont.egg-info
+
+# Ignore virtual env
+**/venv
+
+

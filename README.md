@@ -103,3 +103,12 @@ bitmapfont-extract --img font_image.png --out font.json
 
 Tips
  - once saved, the cell is grey
+
+## Changelog
+
+### Release 0.1.6
+ * `pygame-ce` used instead of `pygame` due to problems with python 3.14
+
+### Release 0.1.7
+ * Dependency on the obsolete `pathlib` PyPI backport removed - it shadowed the stdlib module and broke installs on modern Python. `from pathlib import Path` keeps working, it is the standard library module.
+ * `requires-python` raised from `>=3.7` to `>=3.10` - it now matches what `pygame-ce` supports and what this library's own type annotations require
